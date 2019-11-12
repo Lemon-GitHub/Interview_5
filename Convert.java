@@ -33,7 +33,7 @@ public class Convert {
         while(leftTail != null && leftTail.right != null){
             leftTail = leftTail.right;
         }
-        //////////////////////////////////////todo left为空
+        //////////////////////////////////////
         if(left != null) {
             leftTail.right = pRootOfTree;
             pRootOfTree.left = leftTail;
